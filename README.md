@@ -45,7 +45,7 @@ Please build your page in `task2/index.html`. You are welcome to create as many 
 
 ### Task 3 - Responsive static page
 
-Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The big page is 1894 x 1470 pixels, and the small page is 419 x 3195 pixels. Your single page (note that you're only not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
+Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The big page is 1894 x 1470 pixels, and the small page is 419 x 3195 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 1894 and 419, combined with some combination of heights between 1470 and 3195, the page should still reflect the same general structure.
 

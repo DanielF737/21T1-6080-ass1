@@ -2,7 +2,7 @@
 
 ## Change Log
 
-N/A
+* 22/02: Add a "Font Sizes" section under "Analysing the pages" to clarify how to interpret the best font size.
 
 ## Background & Motivation
 
@@ -115,6 +115,10 @@ The "output" refers to what the inner HTML text should be of the textarea at the
 Two things will want to seek external help for are:
 1) Determining the particular colour (RGB or HEX) of various pixels (we recommend the use of [the Firefox eye dropper](https://developer.mozilla.org/en-US/docs/Tools/Eyedropper), though other alternatives may be appropriate for you)
 2) Determining the size of particular elements (we recommend the use of [photopea](https://www.photopea.com/)). An example of it's usage is below:
+
+### Font Sizes
+
+You will also be curious to know what the correct font-size and other font properties are for this assignment. Part of this assignment is trying to explore the relationship between how a font looks and the properties that are set for the element. Generally the best approach is to set a basic font size (e.g. `font-size: 20pt`), see how it looks, and if it just generally seems too big or too small, then adjust the `pt` value appropriately until you're comfortable with it. You will not be penalised for having font that is off by a few pixels in size. We will cover best practices when it comes to font sizing later in the course. 
 
 ![](./help/photopea.png)
 

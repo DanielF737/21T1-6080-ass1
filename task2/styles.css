@@ -10,7 +10,7 @@ body {
 .bar {
   position: absolute;
   width: 35px;
-  top:0px;
+  top:0;
   height: 100%;
   background-color: #00263F;
   z-index: -1;

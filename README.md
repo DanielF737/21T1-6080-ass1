@@ -2,7 +2,7 @@
 
 ## Change Log
 
-N/A
+* 22/02: Add a "Font Sizes" section under "Analysing the pages" to clarify how to interpret the best font size.
 
 ## Background & Motivation
 
@@ -45,7 +45,7 @@ Please build your page in `task2/index.html`. You are welcome to create as many 
 
 ### Task 3 - Responsive static page
 
-Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The big page is 1894 x 1470 pixels, and the small page is 419 x 3195 pixels. Your single page (note that you're only not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
+Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The big page is 1894 x 1470 pixels, and the small page is 419 x 3195 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 1894 and 419, combined with some combination of heights between 1470 and 3195, the page should still reflect the same general structure.
 
@@ -108,13 +108,17 @@ The "output" refers to what the inner HTML text should be of the textarea at the
 * If they have entered the above correctly, the output is _"Your are [age (integer)] years old, and your address is [street name] St, [suburb], [postcode], Australia. Your building is [a|an] [building type], and it has [features]"_
   * If no features are selected, [features] is _"no features"_
   * If 1 feature is selected, [features] is just _"[feature1]"_
-  * If 2 or more feature are selected, [cities] is just _"[feature1], [feature2], and [feature3]"_ etc, where "and" joins the last and second last feature.
+  * If 2 or more feature are selected, [features] is just _"[feature1], [feature2], and [feature3]"_ etc, where "and" joins the last and second last feature.
 
 ## Analysing the pages
 
 Two things will want to seek external help for are:
 1) Determining the particular colour (RGB or HEX) of various pixels (we recommend the use of [the Firefox eye dropper](https://developer.mozilla.org/en-US/docs/Tools/Eyedropper), though other alternatives may be appropriate for you)
 2) Determining the size of particular elements (we recommend the use of [photopea](https://www.photopea.com/)). An example of it's usage is below:
+
+### Font Sizes
+
+You will also be curious to know what the correct font-size and other font properties are for this assignment. Part of this assignment is trying to explore the relationship between how a font looks and the properties that are set for the element. Generally the best approach is to set a basic font size (e.g. `font-size: 20pt`), see how it looks, and if it just generally seems too big or too small, then adjust the `pt` value appropriately until you're comfortable with it. You will not be penalised for having font that is off by a few pixels in size. We will cover best practices when it comes to font sizing later in the course. 
 
 ![](./help/photopea.png)
 

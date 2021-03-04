@@ -144,7 +144,7 @@ h2 {
   margin-top: 2%;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 800px) {
 
   /*Header*/
   .header {

@@ -55,6 +55,16 @@ h2 {
   font-weight: bold;
 }
 
+.bottom {
+  position: absolute;
+  top: 265px;
+  width: 1122px;
+  left: 56px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 160%;
+}
+
 h1 {
   font-size: 28px;
   margin-top: 8px;
@@ -65,12 +75,10 @@ h3 {
   margin-bottom: 0px;
 }
 
-.bottom {
-  position: absolute;
-  top: 265px;
-  width: 1122px;
-  left: 56px;
-  color: #333333;
-  font-size: 18px;
-  line-height: 160%;
+a {
+  color: blue;
+}
+
+ul {
+  margin-left: 10px;
 }

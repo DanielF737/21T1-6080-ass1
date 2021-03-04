@@ -1,0 +1,181 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  background-color: #F8F8F8;
+  height: 100%;
+  text-align: center;
+  color: #000037;
+  margin: 0;
+}
+
+.wrapper {
+	height: 100%;
+  min-height: 100%;
+  width:90%;
+  max-width: 1125px;
+  margin: auto;
+  display:flex;
+	flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+/*Header Text*/
+
+.header {
+  font-size: 24px;
+  margin-top: 1.5%;
+  line-height: 250%;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*Middle Section*/
+
+.middle {
+  flex: 2;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: 33%;
+  min-width: 370px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.icon {
+  height: 150px;
+  width: auto;
+  margin-bottom: 13%;
+}
+
+/*Bottom Portion*/
+
+.yellow {
+  background-color: #FFFF70;
+  padding-left: 3%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.column {
+  text-align: left;
+}
+
+.text {
+  width: 60%;
+  min-width: 280px;
+  font-size: 24px;
+}
+
+.links {
+  width: 40%;
+  min-width: 200px;
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.store {
+  width:192px;
+  height:auto;
+  margin: 0;
+}
+
+.store2 {
+  margin: 3% 0 0 1.5%;
+}
+
+.info {
+  margin-top: 1.5%;
+  margin-bottom:1.5%;
+}
+
+.purple {
+  background-color: #8E42FF;
+  color: white;
+  font-weight: normal;
+  padding: 0.5% 1%;
+  border-radius: 5px;
+}
+
+.foot {
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 48px;
+  margin:0;
+  margin-top: 2%;
+}
+
+@media (max-width: 420px) {
+
+  /*Header*/
+  .header {
+    margin-top: 10%;
+    font-size: 16px;
+    width: 105%;
+  }
+
+  /*Middle*/
+  .middle {
+    margin-bottom: 20%;
+  }
+
+  .midpoint {
+    margin-bottom: 20%;
+  }
+
+  /*Bottom*/
+  .yellow {
+    margin-bottom: 5%;
+    width: 100%;
+    padding-left:0;
+  }
+
+  .column {
+    text-align: center;
+  }
+
+  h2 {
+    line-height: 70%;
+    margin: 10% 0 5% 0;
+  }
+
+  .store {
+    margin: 7% 0 7% 2%;
+  }
+
+  .store2 {
+    margin-bottom: 12%;
+  }
+
+}

@@ -1,1 +1,54 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label>Street Name</label></td>
+          <td><input type="text" name="sname"/></td>
+        </tr>
+        <tr>
+          <td><label>Suburb</label></td>
+          <td><input type="text" name="suburb"/></td>
+        </tr>
+        <tr>
+          <td><label>Postcode</label></td>
+          <td><input type="text" name="postcode"/></td>
+        </tr>
+        <tr>
+          <td><label>Date of Birth</label></td>
+          <td><input type="text" name="dob"/></td>
+        </tr>
+        <tr>
+          <td><label>Building Type</label></td>
+          <td><select name="type">
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><label>Features</label></td>
+          <td>
+            <input type="checkbox" class="check" name="heating">
+            <label> Heating</label><br>
+            <input type="checkbox" class="check" name="aircon">
+            <label> AirConditioning</label><br>
+            <input type="checkbox" class="check" name="pool">
+            <label> Pool</label><br>
+            <input type="checkbox" class="check" name="sandpit">
+            <label> Sandpit</label><br>
+            <button type='button' name="selectall">Select All</button>
+          </td>
+        </tr>
+      </table>
+      <button type='button' name="reset">Reset</button>
+      <textarea name="output"> </textarea>
+    </form>
+		<script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
